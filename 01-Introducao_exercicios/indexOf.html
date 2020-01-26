@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        function temHabilidade (skill) {
+
+            //indexOf percorre um array e extrai o número do Indice onde o objeto pesquisado se localiza 
+                                   //  (Item pesquisado,  ponto inicial da busca)   
+            var result = skill.indexOf("Javascript",  [pontoInicial = 0])
+
+            if(result != -1){
+                return console.log(true);
+            } else {
+                return console.log(false)
+            }
+            
+        }
+        var skill = [ "Javascript","ReactJS", "React Native"];
+        temHabilidade(skill);
+    </script>
+</body>
+</html>
